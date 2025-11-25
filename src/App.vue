@@ -1,9 +1,11 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
+import LoginPage from "./components/LoginPage.vue";
 </script>
 
 <template>
-  <h1 class="text-3xl font-bold underline">Hello World!</h1>
+  <LoginPage />
 </template>
 
-<style scoped></style>
+<style scoped>
+/* 样式已通过TailwindCSS应用，无需额外样式 */
+</style>
